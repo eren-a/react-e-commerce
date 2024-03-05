@@ -10,11 +10,11 @@ function Bottom() {
             </div>
 
             <div className="links">
-                <a href="/">Find your Store</a>
-                <a href="/">Our Locations</a>
-                <a href="/">Customer Service</a>
-                <a href="/">Contact Us</a>
-                <a href="/">About</a>
+                <a href="/react-e-commerce/#/">Find your Store</a>
+                <a href="/react-e-commerce/#/">Our Locations</a>
+                <a href="/react-e-commerce/#/">Customer Service</a>
+                <a href="/react-e-commerce/#/">Contact Us</a>
+                <a href="/react-e-commerce/#/">About</a>
             </div>
         </>
     )

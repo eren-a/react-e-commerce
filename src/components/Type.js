@@ -7,21 +7,21 @@ function Type() {
   return (
     <>
       <div className="furniture">
-            <a href="/all?type=furniture">
+            <a href="/react-e-commerce/#/all?type=furniture">
                 <img src={furniture} alt=""></img>
                 <p>Furniture</p>
             </a>
         </div>
 
         <div className="outdoor">
-            <a href="/all?type=outdoor">
+            <a href="/react-e-commerce/#/all?type=outdoor">
                 <img src={outdoor} alt=""></img>
                 <p>Outdoor</p>
             </a>
         </div>
 
         <div className="technology">
-            <a href="/all?type=technology">
+            <a href="/react-e-commerce/#/all?type=technology">
                 <img src={technology} alt=""></img>
                 <p>Technology</p>
             </a>

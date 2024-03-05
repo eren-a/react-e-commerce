@@ -9,24 +9,24 @@ function MostPopular() {
       <p>Our most popular products</p>
         <div className="products">
             <div className="product1">
-                <a href="/product?id=1">
+                <a href="/react-e-commerce/#/product?id=1">
                     <img src={product1} alt=""></img>
                 </a>
             </div>
 
             <div className="product2">
-                <a href="/product?id=6">
+                <a href="/react-e-commerce/#/product?id=6">
                     <img src={product6} alt=""></img>
                 </a>
             </div>
 
             <div className="product3">
-                <a href="/product?id=5">
+                <a href="/react-e-commerce/#/product?id=5">
                     <img src={product5} alt=""></img>
                 </a>
             </div>
         </div>
-        <a href="/all">See more...</a>
+        <a href="/react-e-commerce/#/all">See more...</a>
     </>
   )
 }

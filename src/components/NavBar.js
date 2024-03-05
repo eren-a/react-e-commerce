@@ -15,7 +15,6 @@ function NavBar() {
 
     window.addEventListener('scroll', handleScroll);
 
-    // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -25,14 +24,14 @@ function NavBar() {
     <div className={`nav ${scrolling ? 'scrolled' : ''}`}>
       <div className='nav-container'>
         <div className="nav-left">
-          <a href="/">
+          <a href="/react-e-commerce/#/">
             <img src={logo} alt="" />
           </a>
           <input type="text" placeholder="What are you looking for?" id="" />
         </div>
         <div className="nav-right">
-          <a href="/all">PRODUCTS</a>
-          <a href="/">CONTACT</a>
+          <a href="/react-e-commerce/#/all">PRODUCTS</a>
+          <a href="/react-e-commerce/#/">CONTACT</a>
         </div>
       </div>
     </div>

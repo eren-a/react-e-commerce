@@ -9,7 +9,7 @@ function ProductContainer() {
     const location = useLocation();
     const queryParams = new URLSearchParams(location.search);
     const type = queryParams.get('type');
-    console.log("first "+ type);
+
     return (
         <>
             <NavBar />
