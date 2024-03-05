@@ -8,7 +8,7 @@ import ProductContainer from './pages/ProductContainer';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/react-e-commerce">
         <Routes>
           <Route index element={<Home />} />
           <Route path='/home' element={<Home />} />
