@@ -260,13 +260,13 @@ body {
   }
 }
 
-.products div {
+.products img {
   background-color: white;
   transition: filter 0.3s;
   filter: brightness(100%);
 }
 
-.products div:hover {
+.products img:hover {
   filter: brightness(80%);
 }
 
