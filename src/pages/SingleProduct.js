@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import product1 from '../components/img/product1.avif';
 import product2 from '../components/img/product2.avif';
 import product3 from '../components/img/product3.avif';
@@ -18,6 +18,14 @@ import product7b from '../components/img/product7b.webp';
 import product8b from '../components/img/product8b.webp';
 
 function SingleProduct({ id }) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  
+    return () => {
+      window.scrollTo(0, 0);
+    };
+  }, [id]);
+
   const products = [
     { id: 1, name: 'Grey Sofa-bed', imageSrc: product1, thumbSrc: product1b, price: '999€', link: '/react-e-commerce/#/product', category: 'furniture', description: 'A sleek and versatile grey sofa bed that effortlessly combines modern aesthetics with functional design, providing both style and comfort for any living space.' },
     { id: 2, name: 'Wooden Chair', imageSrc: product2, thumbSrc: product2b, price: '19€', link: '/react-e-commerce/#/product', category: 'furniture', description: 'A timeless wooden chair, crafted with precision and elegance, seamlessly blending classic charm with ergonomic sophistication for a perfect seating solution.' },
